@@ -1,0 +1,24 @@
+body{
+    background-color: burlywood;
+}
+*{
+    margin : 0;
+    padding :0;
+}
+ /* but the screen is still scrollable */
+
+ /* we will target the canvas */
+
+ .webgl{
+    position: fixed;
+    top: 0;
+    left:0 ;
+    outline: none;
+ }
+/* now the scroll bar is gone */
+
+to prevent any scroll
+html,
+body{
+    overflow: hidden;
+}
